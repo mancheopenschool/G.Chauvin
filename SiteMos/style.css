@@ -22,6 +22,8 @@ header {
 .item {
 	margin: 25px;
 	vertical-align: center;
+	max-width: 100%;
+	height: auto;
 	
 }
 .col-xs-1 {
@@ -41,17 +43,19 @@ h3 {
 	color: #ffffff;
 }
 
-p {
-	width: 350px;
-    border: 1px solid black;
-    text-align: justify;
-    margin: 25px;
-    padding: 10px;
-    background-color: #0098D3;
-    color: #ffffff;
+.flotte {
+	float: center;
 }
 
-
-
-
+p {
+	text-align: justify;
+    width: 350px;
+    margin: 25px;
+    color: #ffffff;
+    padding: 10px;
+}
+.col-md-6 {
+	margin: 20px;
+	vertical-align: center;
+}
 
